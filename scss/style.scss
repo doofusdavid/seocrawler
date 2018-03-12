@@ -1,6 +1,53 @@
 /* styles */
 
-$darkgreen: #002620;
-$lightgreen: #8ac542;
+$background: #000000;
+$orange: #d76542;
 $lightblue: #7bcfde;
-$error: #ff6a30;
+body {
+    background: $background;
+    font-family: sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.loginwrapper {
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+form {
+    input {
+        background: white;
+        font-size: 16px;
+        color: $background;
+        height: 35px;
+        width: 250px;
+    }
+    input[type=submit] {
+        height: 45px;
+        width: 250px;
+        background: $orange;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+
+.accordion-toggle {
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    .default {
+        display: block;
+    }
+}

@@ -1,2 +1,2 @@
-
+body{background:#000;font-family:sans-serif;color:white;box-sizing:border-box}.loginwrapper{padding:10px 0 0 0;text-align:center;margin-top:50px}.content{display:flex;vertical-align:middle;justify-content:center;height:80vh;align-items:center}form input{background:white;font-size:16px;color:#000;height:35px;width:250px}form input[type=submit]{height:45px;width:250px;background:#d76542;font-size:16px;text-transform:uppercase}.accordion-toggle{cursor:pointer}.accordion-content{display:none}.accordion-content .default{display:block}
 /*# sourceMappingURL=style.css.map */
